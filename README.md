@@ -11,7 +11,7 @@ Responsive: ✅ <br /> <br />
 <a href="https://www.buymeacoffee.com/axorax">
   <img src="https://axorax.github.io/badges/buymeacoffee.svg">
 </a>
-<a target="_blank" href="https://www.github.com/axorax">
+<a href="https://www.github.com/axorax">
   <img src="https://axorax.github.io/badges/github.svg">
 </a><br>
 
