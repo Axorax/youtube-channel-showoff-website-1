@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="shortcut icon" id="shortcutIcon">
+    <link rel="stylesheet" href="content/style.css">
+    <meta name="og:title" id="metaTitle">
+</head>
+<body>
+
+    <div class="banner">
+        <img src="" alt="Channel Image" id="bannerImg">
+        <a href="" id="bannerLink"><h3 id="bannerName"></h3></a>
+        <div class="right">
+            <button id="settingsBtn" class="settingsBtn"><img ondragstart="return false" class="settingsBtn-icon" src="content/settings-1.svg"></button>
+            <a href="" id="visitBtn"><button class="visit-button">Visit</button></a>
+        </div>
+    </div>
+
+    <div id="settings" class="settings">
+
+        <div class="settings-content">
+          <h2 id="modalTitle">Settings</h2>
+          <hr id="modalHR">
+            
+          <div class="settings-sidenav">
+                <button id="advancedBtn" class="settings-sidenav-btn settings-sidenav-one"><span> &nbsp; &nbsp; &nbsp;&nbsp;Advanced / </span><span class="advanced-indicator">off</span> </button>
+                <a href="https://axorax.tk/contact">
+                    <button class="settings-sidenav-btn"><span> &nbsp; &nbsp; &nbsp;&nbsp;Help</span></button>
+                </a>
+            </div>
+
+          <br> <br> <br> <br> <br>
+          <hr id="modalHR">
+          <button class="settingsCloseBtn">Close</button>
+          <br><br>
+        </div>
+      
+      </div>
+
+    <div class="subscribercount">
+        <h2>Subscribers</h2>
+        <h1 class="count"></h1>
+    </div>
+
+    <div class="details-container-1">
+        <div class="videos">
+            <div class="details-container-1-banner">
+                <p>Videos</p>
+            </div>
+            <h2 class="videos-count"></h2>
+            <p class="space-m1"></p>
+        </div>
+        <div class="views">
+            <div class="details-container-1-banner">
+                <p>Views</p>
+            </div>
+            <h2 class="views-count"></h2>
+            <p class="space-m1"></p>
+        </div>
+    </div>
+
+    <div class="details-container-1">
+        <div class="advanced">
+            <div class="details-container-1-banner">
+                <p>Advanced</p>
+            </div>
+
+            <h3 id="hiddenSubCount"><span>HiddenSubscriberCount: </span> <span class="hiddensubscribercount"></span> </h3>
+            <p class="space-m1"></p>
+        </div>
+    </div>
+
+    <script src="content/script.js"></script>
+</body>
+</html>
